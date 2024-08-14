@@ -31,3 +31,20 @@ body {
     text-wrap: balance;
   }
 }
+
+html,
+body {
+  /* Hide both horizontal and vertical scrollbars /
+/* WebKit (Chrome, Safari, etc.) */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.myShadow {
+ box-shadow: rgb(41, 234, 38) 0px 0px 0px 6px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(230, 229, 223) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(241, 119, 67) 0px 0px 0px 15px;
+}
