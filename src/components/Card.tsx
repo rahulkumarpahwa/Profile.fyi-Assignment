@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 
-interface ItemProps {
+interface ItemProp {
 item: {
   title: string;
   image: string;
@@ -9,7 +9,7 @@ item: {
 }
 }
 
-const Card = ({ item }: ItemProps) => {
+const Card = ({ item }: ItemProp) => {
   return (
     <div className="w-72 h-96 myShadow text-black bg-white rounded-lg flex items-center justify-center flex-col gap-5 ">
       <div className="w-32 h-32">
