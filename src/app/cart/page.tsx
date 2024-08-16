@@ -5,7 +5,7 @@ import CartSummary from "@/components/CartSummary";
 
 const Cart = () => {
 return (
-  <div className="flex min-h-screen items-center justify-between py-24 px-8">
+  <div className="flex min-h-screen items-center justify-center py-24 px-8 gap-20">
     <CartItem item={{
     title: "White Gold Plated Princess",
     price: 9.99,

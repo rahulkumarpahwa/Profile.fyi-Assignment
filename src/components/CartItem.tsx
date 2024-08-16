@@ -12,7 +12,7 @@ interface ItemProp {
 
 const CartItem = ({ item }: ItemProp) => {
   return (
-    <div className="flex items-center justify-center gap-5 p-8 myShadow bg-white text-black">
+    <div className="flex items-center justify-center gap-5 p-8 bg-white text-black">
       <div className="w-[4rem] h-[4rem]">
         <Image
           className="w-full h-full"
